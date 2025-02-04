@@ -19,7 +19,8 @@ import React from "react";
 import PageTitle from "@/components/PageTitle";
 import { cn } from "@/lib/utils";
 
-type Props = '';
+type Props = {};
+
 type Payment = {
   order: string;
   status: string;
