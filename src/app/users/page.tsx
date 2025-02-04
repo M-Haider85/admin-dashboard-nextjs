@@ -12,7 +12,6 @@ import { ColumnDef } from "@tanstack/react-table";
 import React from "react";
 import PageTitle from "@/components/PageTitle";
 
-type Props = '';
 
 type Payment = {
   name: string;
@@ -147,7 +146,7 @@ const data: Payment[] = [
   }
 ];
 
-export default function UsersPage({}: Props) {
+export default function UsersPage() {
   return (
     <div className="flex flex-col gap-5  w-full">
       <PageTitle title="Users" />
