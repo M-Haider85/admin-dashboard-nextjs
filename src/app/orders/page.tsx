@@ -19,7 +19,6 @@ import React from "react";
 import PageTitle from "@/components/PageTitle";
 import { cn } from "@/lib/utils";
 
-type Props = {};
 
 type Payment = {
   order: string;
@@ -153,7 +152,7 @@ const data: Payment[] = [
   }
 ];
 
-export default function OrdersPage({}: Props) {
+export default function OrdersPage() {
   return (
     <div className="flex flex-col gap-5  w-full">
       <PageTitle title="Orders" />
